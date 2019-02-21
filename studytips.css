@@ -20,6 +20,10 @@ font-size:30px;
 }
 #firststudytip{
 color: #800000;
-
-
+}
+a:link{
+  color:blue;
+}
+a:hover{
+  color:#ccccff;
 }
