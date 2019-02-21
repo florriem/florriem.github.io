@@ -7,5 +7,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5vw;
-    text-align: left;
+    text-align: center;
+}
+
+body{
+  background-image: linear-gradient(to right,#006652, #99ffeb);
 }
