@@ -13,10 +13,10 @@
 body{
   background-image: linear-gradient(to right,#006652, #99ffeb);
 }
-#introduction{
+p{
 color: 	 #800000;
 font-family: "Comic Sans"
-font-size:30px;
+font-size: 50%x;
 }
 #firststudytip{
 color: #800000;
@@ -26,4 +26,25 @@ a:link{
 }
 a:hover{
   color:#ccccff;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
