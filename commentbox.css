@@ -12,3 +12,19 @@ p{
 form{
   font-size:180%;
 }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
