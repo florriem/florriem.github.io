@@ -1,3 +1,44 @@
-h3{
+.musictitle{
+  color:white;
   text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 450%
+}
+.panel-heading{
+  text-align: center;
+  font-size: 150%;
+}
+.panel-footer{
+  text-align: center;
+  font-size: large;
+}
+.quote{
+  text-align: center;
+  color: white;
+  border-style: double;
+}
+body {
+  background: purple url("https://wallpaperaccess.com/full/632787.jpg") no-repeat fixed center;
+}
+.panel-body1{
+  background-color:	#00b8ff ;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
