@@ -3,3 +3,6 @@ h1 {
   font-family:"Comic Sans";
   text-align:center;
 }
+body{
+  background-image: linear-gradient(to right,#b3fff0, #003329);
+}
