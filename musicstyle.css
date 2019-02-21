@@ -11,11 +11,13 @@
 .panel-footer{
   text-align: center;
   font-size: large;
+  background-color: lightblue;
 }
 .quote{
   text-align: center;
   color: white;
   border-style: double;
+  border-radius: 8px;
 }
 body {
   background: purple url("https://wallpaperaccess.com/full/632787.jpg") no-repeat fixed center;
