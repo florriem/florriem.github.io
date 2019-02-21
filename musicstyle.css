@@ -19,6 +19,15 @@
   border-style: double;
   border-radius: 8px;
 }
+.UpA{
+  text-align: center;
+  color:white;
+}
+.UpM{
+  text-align: center;
+  color:white;
+}
+
 body {
   background: purple url("https://wallpaperaccess.com/full/632787.jpg") no-repeat fixed center;
 }
