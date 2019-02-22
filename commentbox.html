@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Linking the html, css and bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="commentbox.css">.
+</head>
+<body>
+  <!--Explaination-->
+  <h1> Family, friend and school probelms</h1>
+  <p id="problems"> It is natrual to have problems at home, with friends and school. Sometime you need to get it off your chest and talk to somebody about it, usually talking to a stranger is easier especially when it is anonymous. With this website you can publish your comment and recieve advice about your problem without anyone knowing who you are.</p>
+<!--creating the comment box itself-->
+<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />
+</form>
+<!--Adding photos underneath the comment box-->
+<div class="row">
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/9c/71/f9/9c71f9f1e5d4259cef4182ff403393d1.jpg" alt="school" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/93/1d/7d/931d7d2f933f46e78889cca7732456d5.jpg" alt="Friend aesthetic" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/78/b5/3c/78b53c5898821f513e1d548b3e255a9f.jpg" alt="Family aesthetic" style="width:90%">
+  </div>
+</div>
+</div>
+</body>
+</html>

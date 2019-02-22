@@ -1,0 +1,30 @@
+body{
+  background-image: linear-gradient(to right,#006652, #99ffeb);
+}
+h1{
+  color:red;
+  font-size:200;
+  text-align:center;
+}
+p{
+  font-size:200%;
+}
+form{
+  font-size:180%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

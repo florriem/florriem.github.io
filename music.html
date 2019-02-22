@@ -1,36 +1,124 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <h3>Music<h3>
-  <link rel="stylesheet" href="musicstyle.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
-  <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">Classical Music</div>
-        <div class="panel-body"><img src="https://media.sandiegoreader.com/img/croppedphotos/2016/01/28/90546_t658.jpg?ff95ca2b4c25d2d6ff3bfb257febf11d604414e5" class="img-responsive" style="width:100%" alt="classical-img"></div>
-        <div class="panel-footer">Listen to Classical Music to help you study!</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-danger">
-        <div class="panel-heading">Jazz Music</div>
-        <div class="panel-body"><img src="https://i.ytimg.com/vi/k_WRHdBGUog/maxresdefault.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to relaxing Jazz Music to help you study!</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-success">
-        <div class="panel-heading">ChillStep</div>
-        <div class="panel-body"><img src="data:image/jpeg;base64,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" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to ChillStep to help you study!</div>
-      </div>
-    </div>
-  </div>
-</div><br>
 
+<head>
+  <link rel="stylesheet" href="musicstyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <section class="jumbotron text-center">
+    <div>
+      <h1 class="jumbotron-heading"> 𝕄𝕦𝕤𝕚𝕔 <h1>
+    </div>
+    <p3 class="lead text-muted"> Listen to music to help you relax and in the mindset of studying<h3>
+  </section>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://thumbs.gfycat.com/ChiefCoarseHalcyon-small.gif" class="img-responsive" style="width:100%;"
+            alt="classical-img">
+          <div class="card-body">
+            <p class="card-text">Listen to Classical Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=BMuknRb7woc" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://66.media.tumblr.com/7d073a904429f4e3866a36cd2b29d5c7/tumblr_opvqnqCJfs1sslvquo1_400.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to Jazz Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=neV3EPgvZ3g" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://data.whicdn.com/images/275710157/original.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to ChillStep Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=fWRISvgAygU" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div><br>
+
+  <div class="container ">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://66.media.tumblr.com/0fd6fc13a5b02e4f861bebc9b1665865/tumblr_pa7v7dtNhD1w08jp3o1_400.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to ChillPop Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=qcn8l7KjQtk" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://thumbs.gfycat.com/VaguePleasantAmericanindianhorse-max-1mb.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to ChillPop Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=hHW1oY26kxQ" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-md-4">
+      <div class="card md-4 shadow-sm">
+        <img src="https://i0.wp.com/kersz.com/blog/wp-content/uploads/2017/08/e9ef7a90f739e742038cc65e6a87dc91.gif?fit=903%2C507"
+          class="img-responsive" style="width:100%" alt="Image">
+        <div class="card-body">
+          <p class="card-text">Listen to Lofi Hip Hop to help you study!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://www.youtube.com/watch?v=dR17U5-VKtw" class="btn btn-sm btn-outline-secondary"
+                role="button">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
 </body>
+
 </html>
