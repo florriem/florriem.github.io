@@ -1,9 +1,13 @@
 body{
     background-image: linear-gradient(to right,#80ffdf,  #ccfff2);
+    font-family:"Comic Sans";
 }
 
 * {box-sizing: border-box}
-
+h1{
+  text-align: left;
+  text-decoration:underline;
+}
 /* Full-width input fields */
   input[type=text], input[type=password] {
   width: 100%;
