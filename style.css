@@ -4,5 +4,11 @@ h1 {
   text-align:center;
 }
 body{
-  background-image: linear-gradient(to right,#b3fff0, #003329);
+  background-image: linear-gradient(to right,#cc99ff,  #e6ccff);
+}
+p{
+  font-size:120%;
+  font-family: "Comic Sans";
+  color: #006080;
+
 }
