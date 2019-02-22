@@ -1,5 +1,26 @@
 
-body{
-  background-color:linear-gradient(to right,#66ffff, #ffffff) fixed;
-  background-repeat: no-repeat;
+body {
+  background-color: #f8f9fa!important;
+}
+.panel-body1{
+  background-color:	#00b8ff ;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }

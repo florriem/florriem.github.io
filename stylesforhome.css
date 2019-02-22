@@ -13,15 +13,10 @@ background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45))
 {
 background-color:linear-gradient(to right,##66ffff, ##ffffff);
 }
-.jumbotron2{
-  text-align: center;
-}
-.aboutustext{
-  text-align: center;
-}
 #navbarlogo{
   color: #002366;
 }
+<<<<<<< HEAD
 p{font-family:"Comic Sans";
 
 }
@@ -50,3 +45,6 @@ p{
   clear: both;
   display: table;
 }
+=======
+#
+>>>>>>> 2fdf91b33a1450ceb62c2c7126911b3420ba1ddc
