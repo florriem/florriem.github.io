@@ -4,6 +4,8 @@ h2{
   text-decoration: underline;
   font-size:300%;
   font-family:"Comic Sans";
+  border-style: dotted;
+  border-color: #ffff99;
 }
 #writing{
   color:	#ff6666;
@@ -12,4 +14,20 @@ h2{
 }
 body{
   background-image: linear-gradient(to right,#99b3ff, #ccd9ff);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
