@@ -1,77 +1,124 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="musicstyle.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 </head>
+
 <body>
-  <div>
-  <h1 class = "musictitle"> 𝕄𝕦𝕤𝕚𝕔 <h1>
-  </div>
-  <h3 class = "quote"> Listen to music to help you relax and in the mindset of studying<h3>
+  <section class="jumbotron text-center">
+    <div>
+      <h1 class="jumbotron-heading"> 𝕄𝕦𝕤𝕚𝕔 <h1>
+    </div>
+    <p3 class="lead text-muted"> Listen to music to help you relax and in the mindset of studying<h3>
+  </section>
 
   <div class="container">
-  <div class="row">
-    <div class="col-sm-4" >
-      <div class="panel panel-info">
-        <div class="panel-heading">Classical Music</div>
-        <div class="panel-body1"><img src="https://thumbs.gfycat.com/ChiefCoarseHalcyon-small.gif" class="img-responsive" style="width:100%" alt="classical-img"></div>
-        <div class="panel-footer">Listen to <a href="https://www.youtube.com/watch?v=BMuknRb7woc">Classical Music</a><br /> to help you study!</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-danger">
-        <div class="panel-heading">Jazz</div>
-        <div class="panel-body2"><img src="https://66.media.tumblr.com/7d073a904429f4e3866a36cd2b29d5c7/tumblr_opvqnqCJfs1sslvquo1_400.gif" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to relaxing <a href="https://www.youtube.com/watch?v=neV3EPgvZ3g">Jazz</a><br /> to help you study!</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-info">
-        <div class="panel-heading">ChillStep</div>
-        <div class="panel-body3"><img src="https://data.whicdn.com/images/275710157/original.gif" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to <a href="https://www.youtube.com/watch?v=fWRISvgAygU"> ChillStep</a><br /> to help you study!</div>
-      </div>
-    </div>
-  </div>
-</div><br>
+    <div class="row">
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class= "panel panel-danger">
-        <div class="panel-heading">ChillPop</div>
-        <div class="panel-body4" ><img src="https://66.media.tumblr.com/0fd6fc13a5b02e4f861bebc9b1665865/tumblr_pa7v7dtNhD1w08jp3o1_400.gif" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to <a href="https://www.youtube.com/watch?v=qcn8l7KjQtk">ChillPop</a><br /> to help you study!</div>
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://thumbs.gfycat.com/ChiefCoarseHalcyon-small.gif" class="img-responsive" style="width:100%;"
+            alt="classical-img">
+          <div class="card-body">
+            <p class="card-text">Listen to Classical Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=BMuknRb7woc" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-info">
-        <div class="panel-heading">Lofi Hip Hop</div>
-        <div class="panel-body5"><img src="https://thumbs.gfycat.com/VaguePleasantAmericanindianhorse-max-1mb.gif" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to <a href="https://www.youtube.com/watch?v=hHW1oY26kxQ">Lofi Hip Hop</a><br /> to help you study!</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-danger">
-        <div class="panel-heading">Mix</div>
-        <div class="panel-body6"><img src="https://i0.wp.com/kersz.com/blog/wp-content/uploads/2017/08/e9ef7a90f739e742038cc65e6a87dc91.gif?fit=903%2C507" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Listen to <a href="https://www.youtube.com/watch?v=dR17U5-VKtw">lofi hip hop / jazzhop / chillhop</a><br /> mix to help you study!</div>
-      </div>
-    </div>
-  </div>
-</div><br><br>
 
-<div class="container">
-  <div class ="UpA"> Upcoming Artist? </div>
-  <div class = "UpM">Upload your own music! </div>
-    <div class="form-group">
-      <input type="file" class="form-control-file border" name="file">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://66.media.tumblr.com/7d073a904429f4e3866a36cd2b29d5c7/tumblr_opvqnqCJfs1sslvquo1_400.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to Jazz Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=neV3EPgvZ3g" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://data.whicdn.com/images/275710157/original.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to ChillStep Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=fWRISvgAygU" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div><br>
+
+  <div class="container ">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://66.media.tumblr.com/0fd6fc13a5b02e4f861bebc9b1665865/tumblr_pa7v7dtNhD1w08jp3o1_400.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to ChillPop Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=qcn8l7KjQtk" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card md-4 shadow-sm">
+          <img src="https://thumbs.gfycat.com/VaguePleasantAmericanindianhorse-max-1mb.gif"
+            class="img-responsive" style="width:100%" alt="Image">
+          <div class="card-body">
+            <p class="card-text">Listen to ChillPop Music to help you study!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.youtube.com/watch?v=hHW1oY26kxQ" class="btn btn-sm btn-outline-secondary"
+                  role="button">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-md-4">
+      <div class="card md-4 shadow-sm">
+        <img src="https://i0.wp.com/kersz.com/blog/wp-content/uploads/2017/08/e9ef7a90f739e742038cc65e6a87dc91.gif?fit=903%2C507"
+          class="img-responsive" style="width:100%" alt="Image">
+        <div class="card-body">
+          <p class="card-text">Listen to Lofi Hip Hop to help you study!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://www.youtube.com/watch?v=dR17U5-VKtw" class="btn btn-sm btn-outline-secondary"
+                role="button">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
 </body>
+
 </html>

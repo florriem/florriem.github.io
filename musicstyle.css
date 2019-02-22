@@ -2,34 +2,22 @@
   color:white;
   text-align: center;
   border-bottom: 2px solid white;
-  font-size: 450%
+  font-size: 450%;
+<!-- PROBLEM
+.card{
+  width: 400rem;
 }
-.panel-heading{
-  text-align: center;
-  font-size: 150%;
-}
-.panel-footer{
-  text-align: center;
-  font-size: large;
-  background-color: lightblue;
+p{
+  font-size:200%;
 }
 .quote{
   text-align: center;
   color: white;
-  border-style: double;
-  border-radius: 8px;
-}
-.UpA{
-  text-align: center;
-  color:white;
-}
-.UpM{
-  text-align: center;
-  color:white;
+  opacity: 0.8;
 }
 
 body {
-  background: purple url("https://wallpaperaccess.com/full/632787.jpg") no-repeat fixed center;
+  background-color: #f8f9fa!important;
 }
 .panel-body1{
   background-color:	#00b8ff ;
