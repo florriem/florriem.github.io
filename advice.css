@@ -1,16 +1,14 @@
 h2{
   text-align:center;
-  color:	#ff6666;
+  color:	black;
   text-decoration: underline;
   font-size:300%;
   font-family:"Comic Sans";
-  border-style: dotted;
-  border-color: #ffff99;
 }
 #writing{
-  color:	#ff6666;
+  color:	black;
   font-family:"Comic Sans";
-  font-size: 300%
+  font-size: 200%
 }
 
 * {
