@@ -12,9 +12,7 @@ h2{
   font-family:"Comic Sans";
   font-size: 300%
 }
-body{
-  background-image: linear-gradient(to right,#99b3ff, #ccd9ff);
-}
+
 * {
   box-sizing: border-box;
 }
@@ -30,4 +28,12 @@ body{
   content: "";
   clear: both;
   display: table;
+}
+.jumbotron
+{
+background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45))
+}
+.jumbotron
+{
+background-color:linear-gradient(to right,##66ffff, ##ffffff);
 }
