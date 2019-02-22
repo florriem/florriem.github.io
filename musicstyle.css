@@ -17,10 +17,9 @@ p{
   opacity: 0.8;
 }
 
-body{
-  background-color : linear-gradient(to right,#99b3ff, #ccd9ff);
+body {
+  background-color: #f8f9fa!important;
 }
-
 .panel-body1{
   background-color:	#00b8ff ;
 }
@@ -28,8 +27,6 @@ body{
 a:link {
   color: blue;
 }
-
-
 
 /* visited link */
 a:visited {
